@@ -4,7 +4,7 @@ set(PROJECTNAME "cyglidar_d1")
 project(${PROJECTNAME} CXX C)
 
 
-set(extra_flags -std=c++11 -Werror -Wall -Wextra)
+set(extra_flags -std=c++14 -Werror -Wall -Wextra)
 set(CMAKE_CXX_FLGAS "${CMAKE_CXX_FLAGS} ${extra_flags}")
 set(CMAKE_C_LINK_EXECUTABLE ${CMAKE_CXX_LINK_EXECUTABLE})
 
